@@ -27,13 +27,12 @@ Contact: william.killian@gmail.com
 ## Installation
 
 * Copy `civl-syntax.el` to `~/.emacs.d/lisp` or another favorite location
-* Include that path in your load path
+* Include that path in your load path in `.emacs`
 ```lisp
 (add-to-list 'load-path "~/.emacs.d/lisp")
 ```
 * Add the following lines to your `.emacs` file
 ```lisp
-(load "civl-syntax")
 (require 'civl-syntax)
 (civl-syntax)
 ```
