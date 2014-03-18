@@ -1,6 +1,6 @@
 CIVL-C Syntax for Emacs
 =======================
-Version 0.8
+Version 0.9
 
 Description
 -----------
@@ -9,7 +9,7 @@ This small file adds syntax support for CIVL-C in Emacs.
 
 CIVL-C is available for download from http://vsl.cis.udel.edu/civl/
 
-This version conforms to CIVL-C v0.8
+This version conforms to CIVL-C v0.9
 
 Prereqs
 -------
