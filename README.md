@@ -1,6 +1,7 @@
 CIVL-C Syntax for Emacs
 =======================
-Version 0.9
+
+Version 0.9a
 
 Description
 -----------
@@ -26,14 +27,13 @@ Contact: william.killian@gmail.com
 
 ## Installation
 
-* Copy `civl-syntax.el` to `~/.emacs.d/lisp` or another favorite location
-* Include that path in your load path in `.emacs`
+* Copy `civl-syntax.el` to `~/.emacs.d/lisp` (or another favorite location)
+* Include that path in your load path in `.emacs` if it does not exist
 ```lisp
 (add-to-list 'load-path "~/.emacs.d/lisp")
 ```
-* Add the following lines to your `.emacs` file
+* Add the following line to your `.emacs` file
 ```lisp
 (require 'civl-syntax)
-(civl-syntax)
 ```
 * Enjoy!
